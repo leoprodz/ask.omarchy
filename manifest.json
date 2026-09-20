@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "leo.ask",
+  "name": "Ask",
+  "version": "1.0.0",
+  "author": "Leo",
+  "description": "Wrapping prompt for natural-language Omarchy shortcut search",
+  "kinds": ["overlay"],
+  "entryPoints": {
+    "overlay": "Ask.qml"
+  }
+}
