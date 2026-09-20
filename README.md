@@ -33,6 +33,19 @@ omarchy plugin enable ask.omarchy
 copied onto `PATH`. The folder lands at `~/.config/omarchy/plugins/ask.omarchy/`
 because that is the plugin id.
 
+## Remove
+
+```bash
+omarchy plugin remove ask.omarchy
+```
+
+That disables it, then deletes the git checkout. Bind and menu rows you added
+by hand stay until you delete them.
+
+## Dependencies
+
+Jev (`TYPESAFE_API_KEY` in `~/.vault/.env.master`). Nothing else is installed.
+
 ## Key
 
 Put `TYPESAFE_API_KEY` in `~/.vault/.env.master`. Either form works:
