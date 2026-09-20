@@ -67,7 +67,7 @@ def menu_input(prompt: str) -> str:
     }
   )
   summoned = subprocess.run(
-    ["omarchy-shell", "shell", "summon", "leo.ask", payload],
+    ["omarchy-shell", "shell", "summon", "ask.omarchy", payload],
     capture_output=True,
     text=True,
   )

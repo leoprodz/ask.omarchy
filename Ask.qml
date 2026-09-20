@@ -77,7 +77,7 @@ Item {
   function dismiss() {
     root.finishRequest(null)
     if (root.shell && typeof root.shell.hide === "function")
-      root.shell.hide((root.manifest && root.manifest.id) || "leo.ask")
+      root.shell.hide((root.manifest && root.manifest.id) || "ask.omarchy")
   }
 
   function submit() {
